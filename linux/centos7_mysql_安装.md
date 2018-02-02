@@ -96,7 +96,7 @@ yum list installed | grep mariadb
 	flush privileges;
 	```
 
-###卸载mysql
+### 卸载mysql
 
 1. 查看是否安装mysql(-i: 不区分大小写)
 	
