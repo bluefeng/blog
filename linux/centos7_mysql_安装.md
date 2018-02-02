@@ -18,21 +18,22 @@ yum list installed | grep mariadb
 ### 安装mysql指定版本并开启远程连接
 
 1. 如果没有安装wget需要先安装wget
-	
+
 	```
 	yum install wget 
 	```
-	
-[mysqlnet]: https://dev.mysql.com/downloads/repo/yum/
+
 2. 从[官网][mysqlnet]下载对应系统版本的yum源最新rpm安装包，[官网][mysqlnet]有说明最新安装包里包含哪些mysql版本:
 	![](http://www.iwill.fun/media/blog/20180202/mysqldown.png)  
 	我下载的[Red Hat Enterprise Linux 7 / Oracle Linux 7 (Architecture Independent), RPM Package](https://dev.mysql.com/downloads/file/?id=470281),直接鼠标右键下面的[No thanks, just start my download.](https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm)选择复制链接地址就可以得到我们要下在的rpm包地址  
 	![](http://www.iwill.fun/media/blog/20180202/mysqldowm2.png)  
-
+	
+	[mysqlnet]: https://dev.mysql.com/downloads/repo/yum/  
+	
 	```
 	#获得地址后使用wget获取rpm包
 	wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
-	
+
 	#安装下载的发行包
 	rpm -Uvh platform-and-version-specific-package-name.rpm
 	```
