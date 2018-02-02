@@ -1,8 +1,8 @@
 ## centos7mysql的安装和卸载
 
+---
 ### 卸载mariadb
 
----
 因为centos7预装了mariadb（mysql的一个社区开源分支版本），所以安装mysql之前需要卸载掉，不然会冲突。
 
 ```
