@@ -37,7 +37,7 @@ make install
 cd /usr/bin
 mv python python.bak
 ln -s /usr/local/python3/bin/python3  /usr/bin/python
-ln -s "/usr/local/python3/bin/pip3" /usr/bin/pip
+ln -s /usr/local/python3/bin/pip3 /usr/bin/pip
 ```
 ### 因为yum脚本依赖python2，修改配置文件
 
