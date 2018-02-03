@@ -31,12 +31,13 @@ mkdir /usr/local/python3
 make
 make install
 ```
-### 把python2 的链接备份 链接python3
+### 把python2 的链接备份 链接python3,pip
 
 ```
 cd /usr/bin
 mv python python.bak
 ln -s /usr/local/python3/bin/python3  /usr/bin/python
+ln -s "/usr/local/python3/bin/pip3" /usr/bin/pip
 ```
 ### 因为yum脚本依赖python2，修改配置文件
 
