@@ -53,5 +53,32 @@ vi /usr/libexec/urlgrabber-ext-down
 
 ```
 
+---
+### 补充科学上网 ss安装
+
+---
+安装git
+
+```
+yum install git
+```
+安装ss
+
+```
+pip install git+https://github.com/shadowsocks/shadowsocks.git@master
+```
+前台运行
+
+```
+ssserver -p 端口 -k 密码 -m aes-256-cfb
+```
+
+后台运行
+
+```
+sudo ssserver -p 端口 -k 密码 -m aes-256-cfb --user nobody -d start
+
+```
+
 
 
