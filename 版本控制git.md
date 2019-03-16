@@ -127,7 +127,7 @@ git push origin --delete <远程分支名>
 
 ![](http://www.heryc.fun/media/blog/20190316/abc.jpg)
 
-###自建远程仓库
+### 自建远程仓库
 
 一切操作在自己的远程**Linux**服务器上
 
