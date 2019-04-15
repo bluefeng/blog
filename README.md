@@ -9,6 +9,7 @@
 
 ### 数据结构和算法  
 
+* [十大经典排序算法](https://github.com/bluefeng/blog/blob/master/数据结构和算法/十大经典排序算法.md)  
 * [红黑树](https://github.com/bluefeng/blog/blob/master/数据结构和算法/红黑树.md)  
 
 ### linux  
