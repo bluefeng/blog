@@ -5,7 +5,7 @@
 2. 安装 `php` 依赖 
 
 	````
-	sudo yum install -y libxml2 libxml2-devel openssl openssl-devel bzip2 bzip2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel gmp gmp-devel libmcrypt libmcrypt-devel readline readline-devel libxslt libxslt-devel oniguruma oniguruma-devel
+	sudo yum install -y gcc sqlite-devel libxml2 libxml2-devel openssl openssl-devel bzip2 bzip2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel gmp gmp-devel libmcrypt libmcrypt-devel readline readline-devel libxslt libxslt-devel oniguruma oniguruma-devel zip unzip php-zip
 	````
 3. 修改`./configure`增加扩展: 
 

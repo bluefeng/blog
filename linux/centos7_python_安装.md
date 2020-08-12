@@ -6,7 +6,7 @@ centOS7 默认已经安装了 Python2， 我们只需要安装python3就可以�
 ### 安装python3依赖
 
 ```
-yum install openssl-devel bzip2-devel expat-devel gdbm-devel readline-devel sqlite-devel
+yum install openssl-devel bzip2-devel expat-devel gdbm-devel readline-devel sqlite-devel libffi-devel
 ```
 ### 下载python
 
